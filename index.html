@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job seeker interference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head> 
+<body>
+    <div class="container">
+        
+        <div class="content">
+        <h1 class="firsttitle">How would You Execute your Idea?</h1>
+        <div class="first">
+            <h3>List relevant 3rd party tools/products/ventors(i.e Google Analytics) needs to make your idea into reality for stripe.</h3>
+            
+             
+            <input type="text"   id="input-box" placeholder="Add here i.e google Analytics , stacks etc.">
+            <box-icon name='plus' onclick="addTask()"></box-icon>
+           
+        
+        <ul id="list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+        </div>
+        <div class="second">
+            <h3>List relevant skillsets (i.e Survey Design) and business framework/processes(i.e Voice of the customers) used to implement your idea for stripe.</h3>
+            <input type="text" id="inputbox" placeholder="Add here i.e Voice of consumer etc.">
+            <box-icon name='plus' onclick="addedTask()"></box-icon>
+            <ul id="listcontainer">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+        <div class="third">
+            <h3>Give specific content on how your knowledge of specificed tools and skills will help your ideas</h3>
+            <textarea name="Type your answer here" placeholder="Type your answer here" rows="15" cols="150"></textarea>
+        </div>
+
+        <div class="lastbox">
+            
+            <div class="last">
+            <h3>These answers help to decide who to interview . they are anonymized for review . so please dont use identifying info</h3>
+        </div>
+        <button class="save">SAVE</button>
+        
+    </div>
+    </div>
+   
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
